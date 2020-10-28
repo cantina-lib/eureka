@@ -2,8 +2,8 @@
 // Created by binabik on 15/08/2020.
 //
 
-#ifndef EUREKA_MUSICALSCALE_HPP
-#define EUREKA_MUSICALSCALE_HPP
+#ifndef CANTINE_EUREKA_MUSICALSCALE_HPP
+#define CANTINE_EUREKA_MUSICALSCALE_HPP
 
 #pragma once
 
@@ -13,18 +13,20 @@
 
 #include <cant/maths/interpolation/interpolation.hpp>
 
-namespace cant::reka
-{
+#include <cant/common/macro.hpp>
+CANTINA_REKA_NAMESPACE_BEGIN
     class MusicalScale
     {
-    private:
-        int_m _numberSemitones;
 
-        /* fundamental */
-        pan::tone_m _fundamentalTone;
-        float_m _fundamentalFreq;
+    private:
+        /** -- fields -- **/
+        type_i m_numberSemitones;
+
+        pan::tone_d m_fundamentalTone;
+        type_d m_fundamentalFreq;
 
     };
-}
+CANTINA_REKA_NAMESPACE_END
+#include <cant/common/undef_macro.hpp>
 
-#endif //EUREKA_MUSICALSCALE_HPP
+#endif //CANTINE_EUREKA_MUSICALSCALE_HPP

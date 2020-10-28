@@ -13,11 +13,11 @@ Basically all thing related to musical theory should go here.
 #### State:
 
 In progress, but not quite there yet. It will need to extern testing since
-most of this will be templates.
+most of this will be template classes.
 
 #### Dependencies:
 
-* Cantina common
+* Cantina common (submodule)
 	
 ### To do
 

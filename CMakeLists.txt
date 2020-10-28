@@ -24,7 +24,7 @@ include_directories(
 )
 
 # flags
-set(CMAKE_CXX_FLAGS "-Wall -Werror -fPIC")
+set(CMAKE_CXX_FLAGS ${CANTINA_MAIN_CXX_FLAGS})
 
 
 set(EUREKA_FILES
