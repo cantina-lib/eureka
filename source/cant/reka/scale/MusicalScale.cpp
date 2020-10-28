@@ -5,6 +5,7 @@
 #include <cant/reka/scale/MusicalScale.hpp>
 
 #include <cant/common/macro.hpp>
+
 CANTINA_REKA_NAMESPACE_BEGIN
 
 

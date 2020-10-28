@@ -6,7 +6,7 @@
 
 #include <cant/common/macro.hpp>
 
-int main(CANT_MAYBEUNUSED int argc, CANT_MAYBEUNUSED char** argv)
+int main(CANT_MAYBEUNUSED int argc, CANT_MAYBEUNUSED char **argv)
 {
 
 }
